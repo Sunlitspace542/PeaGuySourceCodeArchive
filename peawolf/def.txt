@@ -1,0 +1,13 @@
+tile x static obj\w_castle.3ds
+tile o entity entity\hero.txt
+tile A entity entity\enmi.txt
+tile * entity entity\switch.txt
+tile . entity entity\ammo.txt
+tile # entity entity\exit.txt
+tile c entity entity\cloak.txt
+tile u entity entity\1up.txt
+tile e entity entity\eshot.txt
+tile b entity entity\boost.txt
+tile s entity entity\shield.txt
+hi_sky on
+eax on

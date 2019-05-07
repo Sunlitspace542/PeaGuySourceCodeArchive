@@ -1,0 +1,4 @@
+entity\ammo.3ds
+3
+1
+0

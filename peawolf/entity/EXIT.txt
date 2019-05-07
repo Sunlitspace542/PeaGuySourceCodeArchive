@@ -1,0 +1,4 @@
+entity\exit.3ds
+4
+1
+0

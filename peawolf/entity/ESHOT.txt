@@ -1,0 +1,4 @@
+entity\eshot.3ds
+7
+1
+0

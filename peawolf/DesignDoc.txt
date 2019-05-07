@@ -1,0 +1,46 @@
+PEA-GUY in A-Shock-Ellips-Now!
+______________________________
+
+The Story so far:
+I'm not sure about the story. Basically the gameplay does not
+depend on the story, so it could be changed. But for now, a kinda
+nasty lord stolen the Pea-guy's sun glasses thinking they were
+magical. Pea-Guy now must go to the lord's castle to get his
+sunglasses.
+
+The Environment:
+Indoor (castle) and outdoor(gardens), but mainly it will look
+kinda Wolfeinstein3d-ish. The view can be first-person or third-person.
+
+The Gameplay:
+Like in VorB, Pea-Guy must turn on switches to open the door and exit
+to the next level, killing or dodging enemies when needed.
+
+
+
+Comments:
+As I don't have a strong story, i'd like to know what are the games
+before and after mine about so I could link those situations
+with my storyline.
+
+I mainly worked on the programming and the gameplay, so the art
+will be better.
+
+If I have some extra time I will make my own collision system
+(meaning faster frame-rate). And I could also add a lightmap
+(meaning a frame-rate drop).
+
+On the gameplay side I will add some pick-ups, like lives, speed boost,
+extra dammager, invisibility, invincibility, any other ideas are welcome.
+There will also be things like lava pool, moving blocks, etc.
+I don't think to add any extra weapon, to avoid turning it into a shooter.
+
+
+
+KEYS:
+-----
+
+WASD / cursor keys : move
+mouse : look/turn
+leftclick / ctrl / space : shoot
+-/= : change view

@@ -1,0 +1,20 @@
+xxxxxxxxxxxxxxxxxxxx
+x  *    A          x
+xxx       xxxx . x x
+x   .       x *  xbx
+xx xxxxx    xxxxxx x
+x*  x *            x
+x   x  .      A    x
+x . xxxxxxxxxxxxx  x
+x        s        .x
+x   xxxxxxxxxxxxx  x
+x      *   x  *    x
+x   x     cx   A   x
+x   x  A  xxxxxxxxxx
+x   x     x A  x o x
+x  *x         .x   x
+x   x     x *  x   x
+x#x xxx   xxxxxx  ux
+x x  ex            x
+x x A x     .      x
+xxxxxxxxxxxxxxxxxxxx
