@@ -1,0 +1,21 @@
+project:Vengeance or Bust
+source:C:\DOCUME~1\Camper\LOCALS~1\Temp\WZS4D.tmp\
+file:C:\Program Files\Astral Entertainment\Vengeance or Bust\Shareware\uninst32.exe
+path:C:\Program Files\IMSI\MMFusion\Programs\Data\Runtime\uninst32.exe	C:\Program Files\Astral Entertainment\Vengeance or Bust\Shareware\uninst32.exe
+file:C:\Program Files\Astral Entertainment\Vengeance or Bust\Shareware\Pg3sw.exe
+directory:C:\Program Files\Astral Entertainment\Vengeance or Bust\Shareware\files
+file:C:\Program Files\Astral Entertainment\Vengeance or Bust\Shareware\files\Control.exe
+path:C:\Stuff\Projects\MMF\VorB\BUILD FILES\Control.exe	C:\Program Files\Astral Entertainment\Vengeance or Bust\Shareware\files\Control.exe
+file:C:\Program Files\Astral Entertainment\Vengeance or Bust\Shareware\files\Pg3p2sw.exe
+path:C:\Stuff\Projects\MMF\VorB\BUILD FILES\Pg3p2sw.exe	C:\Program Files\Astral Entertainment\Vengeance or Bust\Shareware\files\Pg3p2sw.exe
+file:C:\Program Files\Astral Entertainment\Vengeance or Bust\Shareware\files\Pgarenasw.exe
+path:C:\Stuff\Projects\MMF\VorB\BUILD FILES\Pgarenasw.exe	C:\Program Files\Astral Entertainment\Vengeance or Bust\Shareware\files\Pgarenasw.exe
+file:C:\Program Files\Astral Entertainment\Vengeance or Bust\Shareware\files\Versmode.dat
+path:C:\Stuff\Projects\MMF\VorB\BUILD FILES\Versmode.dat	C:\Program Files\Astral Entertainment\Vengeance or Bust\Shareware\files\Versmode.dat
+file:C:\Program Files\Astral Entertainment\Vengeance or Bust\Shareware\files\VorBHelp.hlp
+path:C:\Stuff\Projects\MMF\VorB\BUILD FILES\VorBHelp.hlp	C:\Program Files\Astral Entertainment\Vengeance or Bust\Shareware\files\VorBHelp.hlp
+file:C:\Program Files\Astral Entertainment\Vengeance or Bust\Shareware\files\OfflineOrder.html
+path:C:\Stuff\Projects\MMF\VorB\BUILD FILES\OfflineOrder.html	C:\Program Files\Astral Entertainment\Vengeance or Bust\Shareware\files\OfflineOrder.html
+directory:C:\Documents and Settings\Camper\Start Menu\Programs\Vengeance or Bust
+file:C:\Documents and Settings\Camper\Start Menu\Programs\Vengeance or Bust\Vengeance or Bust.lnk
+file:C:\Documents and Settings\Camper\Start Menu\Programs\Vengeance or Bust\Uninstall Vengeance or Bust.lnk
