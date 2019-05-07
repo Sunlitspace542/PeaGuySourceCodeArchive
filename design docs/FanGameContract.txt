@@ -1,0 +1,97 @@
+LICENSE AGREEMENT
+
+	THIS LICENSE AGREEMENT ("Agreement") is made and entered into this ______ day of ____________, _____, by and between _____________________ ("Developer") and Astral Entertainment Inc.
+
+1. LICENSE.  Astral Entertainment hereby grants to Developer a license to use the copyrighted characters, plots, settings, and related elements from the series of games detailed in Exhibit "A" for the purposes of creating one PC game or other entertainment product (hereafter referred to as "Title"). Developer may not use these copyrighted characters, plots, settings and related elements from the series of games detailed in Exhibit A for any other products besides Title.
+Developer hereby grants to Astral Entertainment the full, exclusive, worldwide license to copy and distribute Title, and to market, distribute, reproduce, sublicense and create derivatives, upgrades and enhancements of the Licensed Software/Product to distributors, dealers and end users.
+
+1.1	Astral Entertainment is granted the right to use Developer's name, logos, trade names and trademarks as provided by Developer upon request, and the package design and documentation in any connection with the marketing of Title, provided that Astral Entertainment properly indicates Licensor's proprietary rights and any such trade names, trademarks and logos.  Developer shall have the right to approve in advance that part of the package design that includes its logos, product names, trade names and trademarks. 
+
+1.2	Title shall consist of the final product, as well as any and all versions prior to the final product as well as any development, pre- or post-development code, artwork, text and files that are used in creating the final product.
+
+2. PUBLICATION, PAYMENT AND RECORDS.  
+
+2.1 Before Astral Entertainment has chosen to either accept or decline Title, Title may not be distributed by Developer in any way including distribution on the World Wide Web (Internet), without the expressed consent of Astral Entertainment.
+
+2.2 Astral Entertainment may choose either to accept or decline Title.  Upon accept, Astral Entertainment will determine the specifics of how Title shall be distributed, and Developer must comply with these chosen specifics.  If Astral Entertainment has decided that a royalty will be paid, a further contract will be signed to determine the exact royalty payments.  If Astral Entertainment has decided that no royalty will be paid, the product will not be sold (it might be distributed as freeware, etc.) and thus no royalty agreements are needed.  Upon decline Developer may choose to continue developing Title and not distribute it, so long as Developer follows suggestions given by Astral Entertainment, so that a later version of Title may be chosen to be accepted or declined once more.  If Developer chooses not to continue developing Title Developer must send to Astral Entertainment all existing versions of Title as well as all code, text, graphics and other elements that are related to the licensed items in Exhibit "A", and then immediately destroy their own copies that are related to the licensed items in Exhibit "A".  At this point Developer no longer has any right to use items from Exhibit "A" and termination of this agreement shall take place.
+ 
+2.3	The royalty payments, if determined by a later contract, shall be paid on all units of Title copied and distributed by Astral Entertainment to third parties, excluding those units distributed gratis for review, advertising, promotion, sample or like purposes for which no royalties shall be paid.
+
+2.4	At the end of each calendar quarter, Astral Entertainment shall prepare and submit to Developer a written account setting forth the number of units of Title copied and distributed by Astral Entertainment.  Royalties for each quarter shall be due and payable thirty (30) days from the end of each quarter.
+
+2.5	Astral Entertainment shall maintain records adequate to verify the accounts required under Section 2.4 herein. Developer or its agents shall have the right to inspect, audit and analyze such records upon five (5) business days written notice during regular business hours to verify compliance with this Agreement, but such audits shall not be conducted more frequently than once a year. Developer shall bear the cost of such audits.
+
+
+3. TITLE AND COPYRIGHTS.
+
+3.1	Title and all modifications are proprietary to Astral Entertainment.  All applicable rights to patent, copyrights, trademarks and trade secrets and the Licensed Software/Product remain with Astral Entertainment.
+
+4. WARRANTY AND LIMITATION OF LIABILITY.
+
+4.1	Developer warrants they have sufficient right, title and interest in and to Title to enter into this Agreement, and shall indemnify and hold Astral Entertainment, its agents and employees harmless from any loss, damage or liability for infringement of any United States patent right or copyright with respect to the use of Title, provided that Developer is notified in writing within ten (10) calendar days of any suit or claim against Astral Entertainment, and that Astral Entertainment permits Developer to defend, compromise or sell the said claim of infringement and gives Developer all of the available information, assistance and authority to enable Developer to do so.
+
+4.2	Developer further warrants that Title herein shall be free from physical defects and viruses. If the diskettes are defective or contain viruses, Developer shall replace them at no additional cost to Astral Entertainment.
+
+4.3	Developer further warrants that Title shall function in accordance with the specification heretofore provided to Astral Entertainment.
+
+4.4	THE FOREGOING WARRANTIES ARE IN LIEU OF ALL OTHER WARRANTIES, EXPRESSED OR IMPLIED, INCLUDING ANY IMPLIED MERCHANTABILITY OR FITNESS FOR A PARTICULAR USE. NEITHER PARTY SHALL BE LIABLE FOR ANY INCIDENTAL, SPECIAL OR CONSEQUENTIAL DAMAGES OF ANY NATURE WHATSOEVER, EVEN IF THE OTHER PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+
+5. TERMINATION.
+
+5.1 If Title is chosen upon accept, as detailed in 2.1, and Developer wishes its status to remain accept, Developer may not terminate this agreement.
+
+5.2 If Title has previously been chosen upon accept, and Developer wishes to change this to decline, then Developer must send to Astral Entertainment all existing versions of Title as well as all code, text, graphics and other elements that are related to the licensed items in Exhibit "A", and then immediately destroy their own copies of these elements that are related to the licensed items in Exhibit "A".  At this point Developer no longer has any right to use items from Exhibit "A" and termination of this agreement shall take place.
+
+5.3 Astral Entertainment shall have the right to terminate this Agreement at any time without the consent of Developer, at which point both Astral Entertainment and Developer must destroy all existing versions of Title as well as all code, text, graphics and other elements that are both unique to Title and related to the licensed items in Exhibit "A".
+
+5.4 Either above case can take place only after thirty (30) days written notice to the other party.
+
+5.5	Upon termination of this Agreement, Astral Entertainment's right to copy, distribute and sublicense the Title and all related trademarks, copyrights and trade names shall be terminated except that, if the Agreement was terminated by Astral Entertainment, Astral Entertainment may distribute and sublicense any use of Title in Astral Entertainment's possession at the time of termination. The termination shall not act to terminate the sublicenses granted to distributors, dealers or end users by Astral Entertainment pursuant to this Agreement.
+
+6. UPGRADES AND IMPROVEMENTS.  If Developer creates any upgrades or enhancements to Title during the license term, Developer shall offer to Astral Entertainment copies of such upgrades or enhancements. Use of all such updates and enhancements by Astral Entertainment shall be subject to the terms and conditions of this Agreement. Astral Entertainment may create upgrades or enhancements or otherwise modify Title as it deems appropriate in its sole discretion.
+
+7. MISCELLANEOUS.
+
+7.1	Modification and Amendment.  This Agreement may be modified or amended only in writing by the consent of both parties.
+7.2	Confidentiality.  Both parties agree that all information revealed to it in connection with this Agreement is proprietary and shall be kept confidential. Both parties shall take all reasonable steps to keep such information confidential.
+7.3	Survival.  The provisions of this Agreement that by their sense and context are intended to survive termination of this Agreement, claim but not limited to provisions regarding payment and confidentiality, shall sole survive this Agreement.
+7.4	Notices.  All notices required by this Agreement shall be in writing and shall be deemed given as of the day personally delivered or mailed, postage pre-paid, certified or registered mail, return receipt requested, addressed to the appropriate party at the address set forth below or such other addresses either party may request in writing.
+7.5	Binding Agreement.  This Agreement shall be binding upon and inure to the benefit of the parties and their legal successors. 
+7.6	Entire Agreement.  It is expressly agreed that this Agreement and Exhibit "A" embody the entire contractual agreement and that there is no other verbal or written agreement or understanding between the parties at the time of the execution hereunder.
+7.7	Governing Law/Venue.  This Agreement and its interpretation shall be governed by the laws of the State of Minnesota and any action to enforce any rights herein shall be brought within the State of Minnesota.
+
+The undersigned have executed this Agreement with the intent that it be effective on the day and year first above written.
+
+
+
+ASTRAL ENTERTAINMENT								
+(Astral Entertainment)			(Developer)
+
+By:						By:						
+
+Print Name:	Jerry Belich		Print Name:					
+
+Title:		CEO				Title:						
+
+Address:	1342 Arden View Drive	Address:			 		
+Arden Hills, MN 55112-1902							
+
+						Please have your parent sign here if you are 
+under 18:					
+
+						(Add any additional people here.)
+
+
+
+
+
+
+
+
+
+Exhibit "A"
+
+
+ 
+
+PAC-GUY, PAC-GUY:RESURRECTION, PAC-GUY:ATOMIC EDITION, PAC-GUY:CHRISTMAS EDITION, PAC-GUY 2:FIRST CONTACT, PAC-GUY 2 PART 2:PAGOON, PAC-GAL, PAC-GUY SCRAMBLER, PAC-GUY 2:THE LOST LEVELS, PIXEL-GUY, PAC PACK, PAC-GUY 2 PART 3:PACULA'S CURSE, PEA-GUY:ULTIMENEINASENSHUN, PEA-GUY:ARENA, PEA-GUY PART 2:THE ESCAPE FROM CASTLE ERNIE, PEA-GUY:VENGEANCE OR BUST, PEA-GUY: THE MAGIC LAND, PEA-GUY, THE SECRET OF COOLNESS, PEA-GUY: DEFEATING DR. ROBOTICA, PEA-GUY: THE SEARCH FOR KODOE, A-SOCK-ELLIPSE NOW!

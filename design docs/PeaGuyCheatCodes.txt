@@ -1,0 +1,234 @@
+WARNING: THIS DOCUMENT CONTAINS MAJOR SPOILERS FOR ALMOST EVERY PAC-GUY/PEA-GUY GAME.  READ AT YOUR OWN RISK.
+
+
+
+
+PAC PACK CHEAT CODES
+
+In "The Original Pac-Guy", hold down the "A" and "E" keys at the same time during the intro to see the original, uncut intro.
+
+In "Pac-Guy:Resurrection" or "Pac-Guy:Atomic Edition" enter "khan" as a password to jump to Kan.  Fun fact: this is the ONLY Pac-Guy/Pea-Guy cheat code listed on most cheat code websites.
+
+In "Pac-Guy Scrambler" on level 6 hold down the "A" and "E" keys at the same time to skip to the next level.  (I personally hate that level so added this cheat so I could play every level besides this one.)  May not work in all versions.
+
+
+
+
+PACULA'S CURSE CHEAT CODES
+
+The cheat code contains 2 parts, activated by typing "HEAVY" and "BRICK".  "HEAVY" can only be activated if you've defeated Pacula and went to at least the first frame of the endgame after doing so (in other words, you didn't quit the second Pacula died).  "BRICK" can only be activated if "HEAVY" is already activated (and not deactivated, see below), and if you've defeated Pacula (and went to the first frame of the endgame as above) in the SAME game where you freed Gia.  If you free Gia in one game then quit, load a game where you're about to defeat Pacula and defeat him again, this won't work.  You need to defeat him in the same game as you freed Gia.
+
+Type the cheat code only once.  If you have sound effects turned on and loud enough, a "wooaar" noise will confirm that "HEAVY" was activated and a "wooor" noise that "BRICK" was activated.  If you type "BRICK" again then it will DISABLE the "BRICK" codes, if you type "HEAVY" again then it will DISABLE all cheat codes.  I suspect this is most people's problem, they type the code over and over again.  You need to type it ONCE, it WILL work if you've defeated Pacula/freed Gia.
+
+The "HEAVY" code activates the following cheat keys;
+- (Minus Key), = (Equals Key)  ->  Change bubble color.
+' (Single Quote Key)  ->  Give full shots.
+
+The "BRICK" code activates the following cheat keys;
+[ (Left Bracket Key)  ->  Turn into a vampire.
+] (Right Bracket Key)  ->  Turn back into a Peatorian.
+; (Semicolon Key)  ->  Give full lives.
+
+That's 100% of how the cheat codes work.
+
+
+
+
+PACULA'S CURSE SECRET LEVEL
+
+On level 10 (the garden maze level) go to the square 2 squares up and 3 squares to right of the key.  Pac-Guy will hear a humming to HIS left, which means you must turn him to YOUR right and shoot.  The block you shot will disappear, move onto the teleporter and get the key.  Then, after you've defeated all of Pacula's Vampacmire minions (Speedy, Batty Bomber and Pyro Illusionist) Pac-Guy will notice that there is still one door left he hasn't opened.  Open the closed door, go into that room to enter the secret level.
+
+To beat the secret level you need to collect all pellets on it and get to the exit stairs that appear on the right side of the screen.  To get around on this level you only need to know 2 things, first those lights at the top and bottom of the screen let you wrap around the screen there.  Second, you can only move to an adjacent square if it shares a primary color with the square you're on.  If you don't understand this then take an art class, or look at the table below;
+COLOR   CAN MOVE TO
+Red     Orange, Red
+Orange  Red, Orange, Green
+Green   Blue, Green, Orange
+Blue    Green, Blue
+Once you've beat the secret level and, this is important, IN THE SAME GAME defeated Pacula, the "Visit Pac-Guy's Home" option in the menu will appear.  If you, for example, beat the secret level then load an old saved game and beat Pacula in the old game, it won't work, it needs to happen in the same game.  This means either playing all the way through at one time, or saving after you beat the secret level and then going on to beat Pacula when you load that game.  If you're having trouble, try installing the game to your hard drive and defeating Pacula there.  You also may need to create the directory "C:\Pacula" on your hard drive.
+
+Hint: After you've defeated Pacula, make sure to watch the final credits all the way to the end.
+
+
+
+
+VENGEANCE OR BUST
+
+
+ARENA EASTER EGGS
+
+Play as The Father vs. Road Cone on various levels to see some strange stuff.
+
+
+THE ESCAPE FROM CASTLE ERNIE CHEAT CODES
+
+This only works if you're playing the version with the GREEN Pea-Guy.
+
+Go to the main menu.  Type "E" then "R" then hold down "Shift" while typing "N", then release "Shift" and type "I" then "E".  Repeat this typing of "erNie" three times to go to the cheat screen.
+
+Double-left-clicking on the following characters/weapons does the following things;
+
+Double Shooty			Gives the double shooty and 4 ammo
+Big Shooty			Gives the big shooty and 8 ammo
+Magic Sword			Gives the magic sword
+Pea-Guy				Sets character as Pea-Guy,
+				goes to level 1
+Pea-Gal				Sets character as Pea-Gal,
+				goes to level 2
+Road Cone			Sets character as Road Cone,
+				goes to level 3
+The Father			Sets character as The Father,
+				goes to level 4
+Leah Silverberg			Sets character as Leah Silverberg,
+				goes to level 5
+Julius & Frankfurt		Sets character as Julius & Frankfurt,
+				goes to level 6
+Rusty				Sets character as Rusty,
+				goes to level 7
+The Mortuator			Sets character as The Mortuator,
+				goes to level 8
+
+
+SUPER HOUSE MODES
+
+If you've activated "Visit Pac-Guy's Home" in Pacula's Curse, then you can find secret codes, which can be typed in Pac-Guy's home in Pacula's Curse, all over Vengeance or Bust.  Find one when you beat "Ultimeneinasenshun" and watch the final credits all the way to the end.  Find another one when you beat "The Escape from Castle Ernie" and wait until the very end of the last cinema.  Find the last one in "Arena" when you watch the credits (just choose "Credits" from the main menu, there's no need to beat any level) all the way to the end.
+
+
+
+
+A-SOCK-ELLIPSE NOW!
+
+
+MAIN MENU EASTER EGGS
+
+Go to "The Search for Kodoe"'s menu, then click on the "e" in the word "Kodoe" in the title.  Click "OK" to view the preview for "Pea-Guy Untitled".  Then click on the little dot in the exclamation point (it's very small) to view "Pea-Girl Squad!".  Now you're halfway done.  Click on Kan's grave at the end, quickly before the "thwock" sound plays.  Then, while Pea-Guy is talking hit "Scroll Lock" for one final surprise.
+
+
+DEFEATING DR. ROBOTICA CHEAT CODES
+
+While playing press * to display the console window. Then type the following codes and press [Enter] to activate the corresponding cheat function. When you are done press * again to go back to the game.
+
+Cheat code			Result
+
+satan				Toggle God Mode
+suicide				Commit Suicide
+wirebox				Toggle Wireframebox
+wireworld			Toggle Wireframe Mode
+hunt me				All enemies start hunting for Pea-Guy
+give health			Get Full Health
+give invincibility		Get Invincibility Upgrade
+give doubledamage		Get Double Damage Upgrade
+give cloak			Get Cloaking Device Upgrade
+keys please			Get All Keys
+kill all			Destroy All Enemies
+give little shooty		Get Little Shooty
+give double shooty		Get Double Shooty
+give rocket shooty		Get Rocket Shooty
+give electropulse shooty	Get Electropulse Shooty
+give scatter shooty		Get Scatter Shooty
+all weapons			Get All Weapons with full ammo (Note:
+				Only Works when you have just the Sword)
+all ammo			Get Full Ammo
+give ls ammo			Get Little Shooty Ammo
+give ds ammo			Get Double Shooty Ammo
+give rs ammo			Get Rocket Shooty Ammo
+give es ammo			Get Electropulse Shooty Ammo
+give ss ammo			Get Scatter Shooty Ammo
+give all			Get all keys,upgrades and all weapons
+				(Note: You only get all weapons when
+				you have just the Sword)
+next				Go to next part
+goto part 2			Go to Part 2
+goto part 3			Go to Part 3
+goto part 4			Go to Part 4
+goto part 5			Go to Part 5
+goto part 6			Go to Part 6
+goto part 7			Go to Part 7
+goto part 8			Go to Part 8
+goto part 9			Go to Part 9
+
+
+THE SECRET OF COOLNESS CHEAT CODES
+
+While playing press ~ to display the console window. Then type the following codes and press [Enter] to activate the corresponding cheat function. When you are done press ~ again to go back to the game.
+
+LOADMAP mapname			load the map given by mapname from the
+				current map folder in DATA\MAPS
+GIMMI DOUBLE			Gives the double shooty
+GIMMI BIG			Gives the big shooty
+GIMMI SWORD			Gives the magic sword
+GIMMI ALLWEAPONS		Gives all weapons
+GIMMI AMMO			Gives full ammo
+GIMMI SHIELD n			Gives a shield powerup for n frames
+GIMMI CLOAK n			Gives a cloak powerup for n frames
+GIMMI BOOST n			Gives a speed boost powerup for n frames
+GORE ON				Turns gore on
+GORE OFF			Turns gore off
+
+Warning, turning GORE ON makes the game no longer suitable for young children.  See console.txt in the main The Secret of Coolness directory for a full list of commands.
+
+
+
+
+R.I.PEA-GUY
+
+
+MAIN MENU HIDDEN GAME
+
+There's a secret game hidden somewhere in the R.I.Pea-Guy menu!  Here's a hint to find it; if you move your mouse over something that shouldn't change, but it changes, you'd better click on it!
+
+
+SECRET LEVELS
+
+OK, I won't spell out for you how to find them, but secret levels can be found in many of the games on R.I.Pea-Guy.  Here are some hints;
+
+Pea-Guy First Contact - This is an easy one, it's on level 4 as the power-up.  All you need to do is remember the correct order from "Pac-Guy: Resurrection" level 4.
+
+Pea-Guy Pagoon - It's on level 6 and you need to beat the whole level before you can go through it.  Look for a block that's not present on the same level in "Pac-Guy 2, Part 2: Pagoon".
+
+Pea-Gal - This is an easy one, too.  It's on level 3 and will be familiar to anyone who's played "Pea-Guy Ultimeneinasenshun".
+
+Pea-Guy Scrambler - This is the hardest one, on level 16.  You need to find a block you can enter the blocks with, and a block you can exit the blocks with (not necessarily the same one) to get to that lever.  The lever makes another block, which was previously impassable, now passable, though it will look exactly the same.
+
+
+THE QUEST FOR TEMPLE DOOM EASTER EGGS & CHEAT CODES
+
+1. After defeating the final boss, turn off "Play Intro" to play as one of five hidden characters.
+2. Shoot the grey door that's on most levels 20 times to open it, then go through to get free passage to the next level.
+3. There's also a secret level, accessible from level 22, can you find it?
+
+Press 'T' during normal single player game play to make the character say something 
+
+console: press the 'C' key twice to access the console 
+
+console cheat codes: 
+CODE - USE 
+
+more shots - get more ammo 
+more mines - get more land mines 
+fireworks4me - play with fireworks 
+m-80...1/2 - fire m-80's using the ctrl key 
+kill 'em all - go to a nasty killing fest 
+kill 'em all2 - go to a harder nasty killing fest 
+more particles - adjust the number of particles the flame thrower shoots 
+slow nastys - make nastys slow and pop able 
+no shots limit - get as many shots as you want 
+shots limit - make a limit on the number of shots you can have (normal) 
+cloak me - cloak character 
+shield - shield character 
+infin shots – ‘nuff said 
+follow me - creates a box around the character 
+loaded - all weapons 
+pick me up - click and drag character to anywhere on the level 
+death sucks - full lives 
+particle mine - use the 'Z' key to place a time-delay particle land mine 
+
+
+OTHER ASTRAL ENTERTAINMENT GAMES CHEAT CODES
+
+In "Redemptor", on the ship customization screen, type "cash" to get some extra cash.
+
+In "Big Bug", while playing, type "zoom" to zoom around the screen fast.
+
+The passwords in "Two Tail" are "cordoba" for level 2 and "612" for level 3.
+
+In "Brian's Trip to Mars" hit "Q" in the beginning to find out the size of Brian's ego.
