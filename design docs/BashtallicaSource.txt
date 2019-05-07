@@ -1,0 +1,183 @@
+BASHTALLICA SOURCE CODE
+by Garth Thompson
+e-mail: garth@astralent.com
+
+
+Unfortunately the "source code" Bashtallica.cca is really just an image library.  Due to this fact, I will use this text file to explain what the game would have been like had it been finished, in case some extreme Pea-Guy fan wants to go and finish the game for themselves.  Note that if you don't use Multimedia Fusion, you can also get the images from Bashtallica01.bmp and Bashtallica02.bmp.
+
+The format for this game was going to be based on the classic PC puzzle game "God of Thunder", and unlike games we'd ripped off in the past, we actually had the permission of God of Thunder's creator, Adam Pedersen, to make a rip-off.  To download a freeware version of this excellent old game, go to;
+http://www.adeptsoftware.com/got/
+If you're thinking of finishing Bashtallica, then I would strongly suggest you play "God of Thunder" through as Bashtallica is basically just a combination of it and the "Bash the Blocks" level of "Pea-Guy Arena".
+
+
+BASIC DESCRIPTION
+
+Bashtallica was supposed to be a puzzle game where the user moved from level to level, solving puzzles that were composed of simple elements but get more complicated and harder to solve as levels progress.  It was originally going to be coded in MMF using lots of global objects with behaviors (so that the same events applied to the same objects on all levels without having to overfill global events) but later I was planning to code it using a modified version of the editor/loader that the Uncle Patches game uses.
+
+The basic plot went as follows;
+
+The Mortuator, upon hearing that WitchyWitch was still alive and well after Pea-Guy defeated her, didn't realize that she'd reformed and just assumed that Pea-Guy was being lazy on the job again.  So The Mortuator picks up his sword and heads to WitchyWitch's castle to "finish Pea-Guy's job for him".  Once he arrives he gets in an argument with WitchyWitch, with him disputing WitchyWitch's claims that she's joined the good guys.  While they're arguing, Pyro Illusionist the Vampire (remember...from Pacula's Curse) appears in an explosion of flame and steals The Mortuator's sword and WitchyWitch's magic wand, then disappears.  Now The Mortuator and WitchyWitch have no choice but to settle their differences and team up to stop Pyro, a much better example of Pea-Guy's unfinished business.  Not having their normal weapons, they have no choice except to use baseball bats!
+
+The levels progress and every so often (~1 in 10 levels) there is a mini-boss that appears to be Pyro but instead just turns out to be one of his illusions once you've defeated it.  Around the middle of the game you get the sword/wand back and soon after get the rocket launcher which is used more to solve puzzles than as a weapon.  At the end, before you face the real Pyro he does a quick rap (to the tune of Tupac's "Hit 'em up", i.e. "Lie low when you see Pyro/time to go when you see Pyro/ungh/Pea-Guy shot me but didn't get the job done/now prepare for the wrath of the Undead one/Peatorians we hit 'em up").  The Mortuator and WitchyWitch use a wooden stake to slay Pyro and then, at the end of the game, realize that since Pea-Guy didn't use a stake then Pacula was probably still around somewhere...
+
+
+GAMEPLAY
+
+Basic game setup
+Levels are made up of 80 by 80 pixel blocks, The screen is 800 pixels wide by 600 pixels high with a statistics bar on the bottom of the screen.  The visible area is 10 blocks wide by 7 blocks high.  Levels are larger than is visible on the screen, with scrolling style similar to "The Escape from Castle Ernie".  As usual 5 speed modes and up to 2 player cooperative would have been implemented.  Each level is a puzzle to be solved to get to the exit, and if the player gets stuck or dies they can hit the reset key ("R" or something) to reset the level to how it was when they started, so player score, lives, rocket shots, etc. would have to be saved at the start of the level so they could be reset.  I was planning for this game not to use lives or saved games.  It'd have a health bar instead of lives and when it hit zero the current level would reset.  Instead of saved games there would be a Jump-to-Level (like in "Pagoon") however it would only let the player jump to the highest level they'd already been to.
+
+WitchyWitch and The Mortuator
+These are the two player characters.  The only difference is that WitchyWitch uses the wand for her second weapon while The Mortuator uses the sword.
+
+Baseball Bat
+This is the default weapon for both characters.  It doesn't hurt most Nasties, just bounces them around the screen, however by bouncing enemies into crates with the bat you can clear your path and solve puzzles, and you can kill nasties by bouncing them into hazards.  This weapon works like the bat on "Bash the Blocks" in "Pea-Guy Arena".  Some nasties also use bats to bounce players around.  I wasn't planning to have player 1's bat affect player 2 or vice versa since this would let the players activate puzzles by themselves that they should use bouncing nasties for.  Infinite ammo.
+
+Sword
+The Mortuator found his sword in The Magic Land and now can kill most enemies after they're hit a few times with it.  Some enemies, such as robots, are unaffected.  This weapon works like the magic sword in "The Escape from Castle Ernie".  Infinite ammo.
+
+Magic Wand
+WitchyWitch's magic is her weapon of choice, but she needs her wand to use it.  It doesn't do as much damage as The Mortuator's Sword, but can hit enemies no matter how far away they are.  The Wand Shots have very specific path movement in MMF, when implementing them use the four objects "W - Wand Shot (Direction)" for her shots in the four directions.  Also don't have them shot or change their movement, instead just create them as the are at (0,0) from her wand's Action point.  Infinite ammo.
+
+Rocket Launcher
+This is both characters' third weapon.  It can destroy any nasties and most puzzle objects in one shot however ammo for it is very, very limited.  In fact the game was supposed to only give you enough ammo to complete the puzzles and little more, so you'd get stuck and have to reset the level if you used rockets to kill what you weren't supposed to.
+
+Bosses
+The final boss is the Pyro Illusionist from Pacula's Curse, but he's been practicing so now his powers of flame and confusion are much greater.  The mini-bosses between levels appear to be Pyro, but then when the final blow hits, it's revealed that the mini-boss was, in fact, just an illusion of Pyro's.
+
+Basic Nasties
+
+Bugs
+These are the weakest enemy.  They move randomly and drain your health when they hit you.
+Killed by: Baseball Bat, Wand, Sword, Rocket
+
+Green Chompies
+Move towards the player and do health damage.  They are bounced but not harmed by the baseball bat, and are killed by most hazards they're bounced into.  They can be killed easily by the wand or the sword.
+Killed by: Wand, Sword, Rocket
+Bounced by baseball bat
+
+White Chompies
+Move and are vulnerable similar to Green Chompies, but instead of doing health damage these use a Baseball Bat of their own to knock the player around.
+Killed by: Wand, Sword, Rocket
+Bounced by baseball bat
+
+Gray Chompies
+These move and attack the same as Green Chompies.  They also often are not moving on their own, but instead are on escalators/moving sidewalks/etc.  (Upgrade nasty from Green Chompies)
+Killed by: Rocket only
+Bounced by baseball bat
+
+Blue Chompies
+Are found only in the water (which is impassible to players) and aren't affected by the baseball bat but can be killed by later weapons.  They use the blue Double-Shooty to shoot from water at the players on land.
+Killed by: Wand, Sword, Rocket
+Not bounced by baseball bat
+
+Neoneons
+Move back and forth in a very simple manner, left-and-right only or up-and-down only, and if the player gets in their path they receive a health-draining electric shock.  They can activate a lever if they hit it so can cause hazards for the player by turning things constantly on and off.  In terms of puzzles, they work like the Blue Haired Imps in "God of Thunder".
+Killed by: Wand, Sword, Rocket
+Not bounced by baseball bat
+
+Horned Neoneons
+Don't move, stay in one place and turn.  If the player comes directly above, below, left or right from them they shoot powerful electric blasts that instantly kill the player.  Because of this they essentially block the path in four directions, unless they themselves are blocked by roll or push blocks.  In terms of puzzles they work like the Green Worms in "God of Thunder".
+Killed by: Wand, Sword, Rocket
+Not bounced by baseball bat
+
+Robot Nasties
+
+Cannon
+Pyro has purchased some of Dr. Robotica's famous cannon robots!  These are motionless and shoot like Horned Neoneons, and also don't change directions, firing their deadly rockets in only one pre-set direction.  (Upgrade nasty from horned neoneons)
+Killed by: Rocket only
+Not bounced by baseball bat
+
+Walker
+Walk around in some pre-set, but possibly complicated, path.  They only kill the player if the player gets in their way, in which case the player is instantly killed.  In terms of puzzles they work like the SpinBalls in "God of Thunder".
+Killed by: Rocket only
+Not bounced by baseball bat
+
+Undead Nasties
+
+Zombies
+Work pretty much the same as the ones in "Pacula's Curse".  They make a beeline for the player then take control ("Zombified" player animations) and try to dump them onto some hazard.  The brainless hat ("Brainless" player animations) prevents them from attacking, however if you have a zombie on your head other nasties won't attack you, so there is some advantage to letting them take you over for a little while.
+Killed by: Wand, sword, rocket
+Bounced by baseball bat (including bouncing it off the player's head if it's controlling them)
+
+Ghouls
+Leave a trail of slime and attack like a faster, tougher version of white chompies.  They also have a baseball bat of their own.  (Upgrade nasty from white chompies)
+Killed by: Wand, sword, rocket
+Bounced by baseball bat
+
+Devémon
+Move like a faster, tougher version of Neoneons.  They too can activate levers that they hit.  (Upgrade nasty from neoneons)
+Killed by: Wand, sword, rocket
+Not bounced by baseball bat
+
+Skeletons
+Attack the player straight-on, using a large broadsword which does a lot of damage, similar to The Mortuator's sword.  They take many shots to kill (with the wand or the sword) and are best avoided, if possible.
+Killed by: Wand, sword, rocket
+Bounced by baseball bat
+
+Ghosts
+Move straight towards the player, over all obstacles and hazards, and instantly kill the player when they hit.  Even rockets are useless against them so the player must rush through the level quickly to avoid death.
+Killed by: None
+Not bounced by baseball bat
+
+Power-Ups
+
+Brainless Hat
+Prevents zombies from attacking for one level.
+
+Speed Boost
+Gives a temporary (~10 seconds) boost of speed.  In terms of puzzles is used like the Winged Boots in "God of Thunder".
+
+Shield
+Protects the character from all attacks, even instantly-killing ones, for one level.  In terms of puzzles is used like the Amulet of Protection in "God of Thunder".
+
+Detonator
+Explodes a block somewhere on the screen to allow access to another part of the level.  In terms of puzzles works like a key/key door, but forces you to blow up a specific block instead of opening any door.
+
+Health Bubble
+Restores 25% (or so) of the player's health.  (Does NOT work like the item of the same name in "Pacula's Curse")
+
+Key
+Can open any key door, and the player can carry multiple keys.  Works just like in "God of Thunder".
+
+Rocket Ammo
+Lets the player fire the rocket launcher one time.  Each player can carry at most 3 ammo at a time.
+
+Puzzle Items
+
+Push Block
+Works like the push blocks in "God of Thunder" and is destroyed by the rocket launcher or by being pushed atop an opening gate/spikeway.  Also works like the push blocks in the dungeon in "Pacula's Curse" or in a million other games.
+
+Roll Block
+Works like the rolling boulders in "God of Thunder", in other words it's a push block that doesn't stop moving until it hits something (unlike the push block that stops when you stop pushing it).  Also is destroyed by the rocket launcher or opening gates/spikeways.
+
+(Detonated) Boxes
+These can be destroyed by a detonator/rockets, but are more commonly destroyed by hitting somebody into them using a baseball bat.  They work like the cracked blocks on the "Bash the Blocks" game in "Pea-Guy Arena".
+
+Key Door
+Opened by a key or destroyed by a rocket.
+
+Buzz Saw and Knife
+Pyro must have purchased these from Ultimeneinasenshun's gantlet.  Jabbing hazards that could either instantly kill the player or just drain health if they hit.  The saw and the knife have different speeds and frequencies.
+
+Spike
+A hazard that zombies can pull players into, players can bounce nasties into, etc.
+
+Magnet
+Pyro bought a bunch of these from Ernie Smellur.  They pull the player, slowly or quickly depending on the magnet, towards a hazard or maybe just a bunch of nasties.
+
+Directed Floor
+These work exactly like the red floor arrows in "God of Thunder".  Basically, if the player is overlapping arrows they can ONLY move in the direction of those arrows.  Sometimes there is a lever that, when pulled, rotates the direction of the arrows in some manner.
+
+Magic Fountain
+Touching this restores the player health by 10%, but it can be touched repeatedly so it basically restores health to 100% when found.  This works exactly like the Red Angels in "God of Thunder".
+
+Levers
+When pulled these might open or close a gate/spikeway, or might rotate a directed floor, or do something else.  Most levers can be used repeatedly but some can be used only once.  There are 4 types of lever object for the 4 directions you could pull a lever from.
+
+Path Blockers (Spikeways and Gates)
+These block the player's path until a lever is pulled.  Both kill the player if they're above one coming up out of the ground, but gates are harmless otherwise.  Spikeways are both a gate and a spike, so they also kill players or nasties who are unfortunate enough to get knocked into them.
+
+
+ADDITIONAL NOTE
+
+The blue boxes above the play area were going to be used for the original (non-editor) method of programming the game.  All blue boxes would be invisible, but would affect the properties of the objects that hit them, changing their speed or direction, etc., in a uniform manner.

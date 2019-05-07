@@ -1,0 +1,219 @@
+PEA-GUY LEVEL EDITOR SOURCE CODE
+by Garth Thompson
+e-mail: garth@astralent.com
+
+
+The truly hardcore Pea-Guy fan who owns Multimedia Fusion will want to see if they can edit this level editor themselves to increase the number of games you can make using it, so to try to help I've created this short guide.
+
+The source code provided is a MultiMedia Fusion (MMF) *.cca file saved with Version 1.2 Build 98.  For information and MMF upgrades to the latest version, visit www.clickteam.com
+
+The source for the editor is UnclePatchesEditor.cca, the source for the loader (main game) is UnclePatchesLoader.cca.  Also included is UnclePatches.gam which was saved with The Games Factory (TGF).  For general information on how to play and how to use the editor see EditorReadMe.txt and GameReadMe.txt in the UnclePatches\data folder.
+
+
+GENERAL DESCRIPTION
+
+This is a general description of how level editing/loading works.  The editor is in general a much simpler program than the loader, but it's also much slower.  Loading waits until the "Loader"/"Loader 2" object hits the relevant "Basic Mover"/"Basic Block" object, then loads it from the array file.  Saving first clears the section of the array that will be saved, then saves the objects into the array file as they're hit by the "Saver" object.
+
+Loading in the playable game, in order to be faster, doesn't use any objects hitting other objects.  Instead it uses basically the MMF equivalent of two nested FOR/NEXT loops, incrementing (X,Y) from (0,0) to (20,15) (or whatever the size of the level is).  It changes two counters, called "Create Next X" and "Create Next Y" to let the game know where to create the new objects.  Once creating of objects for the first level loaded is finished, gameplay starts, and the next level starts getting built offscreen, based on the direction of scrolling (if there's no between-level scrolling then the new level is built down and to the right).  Once the user has completed the current level and moves to the already-created next level, the third level starts getting built, and so on.  If the next level isn't ready by the time the player activates an exit, the exit will act as a blocker until it's ready.
+
+
+FILE FORMAT
+
+The *.pgm level files that are saved are MMF arrays of size 100 x 101 x 1.  As there is no Z coordinate, Z = 1 always.  The first 100 x 100 items in the array hold the data for what's in the level.  The positions at Y = 101 however contain special information.
+
+Y=101,X=1 - Must always equal 12345 or levels will not load (version checker)
+Y=101,X=2 - Full Width value stored
+Y=101,X=3 - Full Height value stored
+Y=101,X=4 - Scroll Dir value stored
+Y=101,X=5 - Scroll Type value stored
+Y=101,X=6 - Music value stored
+Y=101,X=7 - Alt. Next value stored
+
+For X = 1 to 100, Y = 1 to 100 the values stored contain information about what's on that square on the level (Thus on a 20x15 only X = 1 to 20, Y = 1 to 15 are used).  Additionally the value stored contains 4 values, based on what's in each decimal place.
+
+Take, for example, the number 123456
+
+1 2 3 4 5 6
+_ _ _ _ _ _
+_ ___ _ ___
+a b   c d
+
+This number really contains four values, a=1, b=23, c=4 and d=56.  You can access each part of the number in MMF using division (/) and Mod.  Just divide by the number by 10^number of places on the right you want to get rid of, then Mod by 10^number of digits you want to keep, then finally use Int(Your Number) to get the integer value.  For example Int((123456 / 1000) Mod 100) = 23.
+
+The values a,b,c and d above contain the following information;
+a - Which type of "active" object is on the square, as follows;
+a=1 - Nasties
+a=2 - Player Start Positions
+a=3 - Collectibles
+a=4 - Puzzles
+b - Which specific "active" object it is, out of the larger group.
+c - Which type of "background" object is on the square, as follows;
+c=1 - Floors
+c=2 - Walls
+c=3 - Sprites
+d - Which specific "background" object it is, out of the larger group.
+
+Note that I use quotes around "active" and "background" as they are both actually implemented using MMF Active Objects.
+
+Here are the specific numbers used in the existing Uncle Patches game.  Feel free to update this file based on new objects you may add;
+Floors (c=1)
+d=00 - Factory Floor
+d=01 - Flume Base
+d=02 - Black Floor
+Walls (c=2)
+d=00 - Closed Red Door
+d=01 - Factory Top
+d=02 - Factory UR
+d=03 - Factory LR
+d=04 - Factory LL
+d=05 - Factory UL
+d=06 - Factory Tall
+d=07 - Factory Left
+d=08 - Factory Square
+d=09 - Factory Tall
+d=10 - Factory Tall
+d=11 - Factory Tall
+d=12 - Factory Bottom
+d=13 - Factory Long
+d=14 - Factory Long
+d=15 - Factory Right
+Nasties (a=1)
+b=00 - Chompy
+b=01 - Purple Bot
+b=02 - Green Bot 1
+b=03 - Green Bot 2
+Players (a=2)
+b=00 - P1 Start Down
+b=01 - P2 Start Down
+b=02 - P1 Start Right
+b=03 - P2 Start Right
+b=04 - P1 Start Left
+b=05 - P2 Start Left
+b=06 - P1 Start Up
+b=07 - P2 Start Up
+Collectibles (a=3)
+b=00 - Card Release
+b=01 - 1 Money
+b=02 - 2 Money
+b=03 - 3 Money
+b=04 - Key Card
+Puzzles (a=4)
+b=00 - Melted Ore
+b=01 - Vent UD
+b=02 - Key Slot
+b=03 - Money Vent
+b=04 - Splotch 1
+b=05 - Vent LR
+b=06 - Grate
+b=07 - Splotch 2
+b=08 - Dirty Wall
+b=09 - Bars LR
+b=10 - Bars UD
+b=11 - Trash
+b=12 - Spawn 1
+b=13 - Spawn 2
+b=14 - Computer 1
+b=15 - Computer 2
+b=16 - Belt 1
+b=17 - Belt 2
+b=18 - Key Door
+b=19 - Up
+b=20 - Down
+b=21 - Left
+b=22 - Right
+b=23 - Up Right
+b=24 - Left Up
+b=25 - Down Right
+b=26 - Left Down
+b=27 - Spike Down 1
+b=28 - Spike Down 2
+b=29 - Blocker Up
+b=30 - Blocker Down
+b=31 - Blocker Left
+b=32 - Blocker Right
+b=33 - Auto Exit
+b=34 - Bars over Belt 1
+b=35 - Bars over Belt 2
+b=36 - Flume 1
+b=37 - Flume 2
+b=38 - Hammer Up
+b=39 - Hammer Down
+b=40 - Chompy Blocker
+
+This isn't an overall guide to the code, however the code is commented and separated into groups so if you are at all familiar with MMF you should be able to look at it and figure most of it out.
+
+
+ADDING A NEW OBJECT
+
+First you need to add the new object's picture to either the "Basic Mover" or "Basic Block" object in the animation for the type of object you're adding (for example, Collectibles).  Do this by picking the first direction, moving counterclockwise from right, that has an unused icon (it will be a very simple-looking non-Uncle Patches item) and replacing it with picture of your object.  Then edit the Combo Box that will contain your item, adding it to the bottom of the list.  For Puzzles you'll have to use "Combo Box Puzzles 3" as the first two are full.  If the combo box you're using fills up, you can implement a multiple-box system like the one used for Puzzles, look at the code under "Buttons to Select What Placing"/"Puzzles" to see how.  Add your item to the bottom of the relevant list above to determine its number.
+That's all that has to be done to add a new object to the editor until you get past 32 items of a given kind.  At that point you need to use a multiple-animation system like Puzzles use (The "Basic Mover" object has 2 animations for Puzzles).  This requires modifying saving and loading code for the editor, and in the case of Floors or Walls changing the code for the Loader also, so examine how Puzzles are saved and loaded to the array to learn what you have to do.
+
+To make the new object appear in the game, you need to include it in the level loader also, the main game.
+
+New floors and walls are easy to add to the loader, just add their image to the "Floorpiece" for a floor or "Wallpiece" for a wall, to the same direction as you added the image in the editor.  Floors and Walls don't do anything special so there's no extra programming required at this point.
+
+To add a new "active" object is more complicated.  First create the object and all related objects in MMF as new objects, just as you would for a normal game.  Then go to that object's "Properties"/"Qualifier" and give them the "Neutral" qualifier.  Also go to "Properties"/"Scrolling" and turn off "Destroy object if too far from frame".
+
+Now you need to add the code that creates your new object.  Go to the events editor and open the "Initial Setup" group.  Scroll down past "Build Movables" and find the already-coded object that comes before the new one in the list and add yours below it. (preferably after a comment!)  The CAUSE EVENTS need to be;
+1. value(Primary Build Sequence) > 20
+2. value(Primary Build Sequence) < 23
+3. (currentvalue(GameArray)/1000) mod 1000 = XXX
+Where XXX is the a & b number from your object (a x 100 + b) from the list above (So for 12345 it would be 123).
+The RESULT EVENTS need to be;
+1. Add 1 to counter "Primary Build Sequence"
+2. Create Your Object
+3. Set the X position of your object to value(Create Next X)
+4. Set the Y position of your object to value(Create Next Y)
+5. Set the internal flag of your object, with value equal to value(Building Current or Next) on.
+6. Any additional setup your object requires.
+This should allow your new object to be loaded during the regular loading sequence.
+
+Now you need to add events to make your new object work like it's supposed to.  Please take note;
+* Any new objects that get created on the level must have their internal flag 0's set ON immediately after they are created, this is to differentiate between objects on the current level (internal flag 0) or on the next level being built (internal flag 1).
+* Any object that moves needs to have its speed set up based on speed mode, shortly after it's created.  "Speed Mode" is the first alterable value of the object "More Global Values 1".  To use it, when you create an object set its speed to the value you want for "Normal" speed multiplied by Speed Mode.  The 5 default speed mode multipliers are 0.5, 0.75, 1.0, 1.5 and 2.0.
+* As the next level is being built as the current level is being played, when an event affects ALL objects of some type you need to make sure it only affects ones on the current level.  Do this by making the event require that the affected object's internal flag 0 is set on.  Another way to do this is to have "placer" objects get created and replace them with the real objects once the "placer" objects have their internal flag 0 set on.
+* In this game, the built-in MMF pausing isn't used.  This is so that the game can call the pause function itself without the user having to hit any keys.  Pausing must be implemented for all objects independently.  This is done in the "Pause/Unpause" events group.  For most objects this is as simple as telling them to stop when value(Pausing) = 0 and start when value(Pausing) = 1.  The best thing to do would be to add the new start/stop events to the existing events used for pausing.
+* Also in regards to pausing, any repetitive timed events (for example, "Every 3 seconds do this...") should only occur when value(Pausing) = 1.
+
+
+QUALIFIERS
+
+For those not "in the know", qualifiers in MMF allow multiple types of objects to be affected by the same events.  The level loader has several already built in, so that giving an object one of the qualifiers below will give the object those properties.
+
+Group.Neutral - Should be used on all gameplay objects.
+Group.0 - This qualifier is, basically, a wall.  Give it to any new objects that block players, nasties, and anything else that's blocked by a wall.
+Group.1 - This qualifier turns the object into the same type of thing as the melted ore or the flume, in other words it destroys spawned objects and kills players.
+Group.Player - This qualifier is on the mover objects (the invisible objects controlled by the player) for player 1 and player 2.
+Group.Enemies - This qualifier is used on objects that Chompies (and in general random movement nasties) bounce off of, but players can move through without problems.
+
+
+GLOBAL VALUES
+
+The loader (main game) was created to be eventually adapted to more Pea-Guy games than just Uncle Patches, and the global values reflect this.
+
+Block Size - This is the width and height of blocks, always 32 for Uncle Patches, 80 for Bashtallica, etc.
+Level Width, Level Height - This is not the width and height of the entire level, but rather the maximum width and height in blocks that the user can see on the screen at any given time, always 20x15 for Uncle Patches.
+Full Width, Full Height, Scroll Direction, Scrolling Type, Music, Alternate Next Level - These are the level-by-level values loaded from the array.
+Next Level to Load - The numeric value of the next level file that the editor will load.
+Number of Players - 1 or 2 is all that's set up currently.
+Player One Character, Player Two Character, Player One Shots, Player Two Shots - Not used in Uncle Patches, but there if you want to use it for another game.
+
+
+CHANGING NAMES OF FILES USED
+
+In the level editor, underneath the comment "Calculate Level to Load" change the text (but NOT the equation) that the string "Level File" is set to, from "UnclePatches" to something else.
+In the level player, change paragraph 1 in the string object "Which Maps" to change the name of the files loaded from UnclePatchesX.pgm to something else.
+
+
+HOW TO IMPLEMENT STATISTICS DISPLAY
+
+I had a hard time coming up with a display system for score, lives, money sacs, etc. that would work properly with the game loader.  In retrospect what I should have done was have the game save this data (score, lives, etc.) along with window position to an ini file frequently, and then have a separate executable file run with its window set to be "always on top", and read the data from the ini file, and then position it relative to the main window, displaying the info in the "always on top" window.
+
+
+THE REST OF THE UNCLE PATCHES GAME
+
+The file UnclePatches.gam also contains Brian Quarfoth's TGF/MMF source code for the Uncle Patches game that contains artwork for two more types of level, not yet implemented in the level loader.  Here are Brian's original descriptions of how those types of level were supposed to work;
+
+2nd set (Frame 4): These are pretty simple. There are two sleeping nasty guards and one white nasty patrolling.  If the white nasty sees you he blows his whistle and wakes up the sleeping guards. In the next level of this set there are laser beams across the halls. You can't stop them. You just have to time your actions.  No nasty guards in this level. Next level nasty guards.
+
+3rd set (Frame 5): This is the last set before the big bad boss.  And it's very simple. You've cleared all of The High-Hat's security systems. So, he's called in his elite gang of ninjas (I had to get some ninjas in the game). These levels are very simple, but hard.  probably 3 ninjas in each level. They hunt you down and throw ninja stars at you. in the next level of this set we bring back the laser beams from the 2nd set of levels. just a couple plus a couple ninjas.
