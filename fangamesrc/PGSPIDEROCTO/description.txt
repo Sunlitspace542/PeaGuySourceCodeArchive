@@ -1,0 +1,7 @@
+This is my discription of this game to the public. Astral Entertainment can either make up their own,
+	or use mine (or add to or edit mine).
+
+This is a Pea-Guy game with six scrolling levels (four regular levels and two boss levels), 
+	where you can either play as Pea-Guy, or a new character, La Shae. La Shae's planet is 
+	being overrun by evil spiders and octopusses, and it must be saved. This game has
+	earthquakes on level 4.
